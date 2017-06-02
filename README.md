@@ -13,6 +13,8 @@ In this task you'll be creating and deploying a simple, full-stack, single-page 
 
 I would like you to create a **multi-step** or **multi-screen** athlete profile form that gathers standard demographic, sports and event data. Here is a list of data points and sports you might want to use:
 
+#### Data Points
+
 * `Name`
 * `Date of Birth`
 * `Nationality`
@@ -29,6 +31,8 @@ I would like you to create a **multi-step** or **multi-screen** athlete profile 
 * `Drinks Alcohol` 
 * `Married`
 * `Profile Image` (If you have time - S3 storage)
+
+#### Sports
 
 * Golf
 * Tennis
