@@ -7,7 +7,7 @@ Athlete Profile Input Form
 
 In this task you'll be creating and deploying a simple, full-stack, single-page application in Node and Angular 1. 
 
-> If you have any questions email me at nick@opensponsorship.com.
+> If you have any questions email me at ishveen@opensponsorship.com.
 
 ### Requirements
 
@@ -115,7 +115,7 @@ Please turn in your results within **72-hours** of the prompt being given. If th
 
 ### Evaluation & priorities
 
-Within your brief **4 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process â€” get it working on sound principles first, then refine and polish as time allows.
+Within your brief **4 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process — get it working on sound principles first, then refine and polish as time allows.
 
 1. Make it work!
 2. Clean and clear code (hopefully you didn't sacrifice this to make it work)
@@ -143,10 +143,10 @@ Less important details:
 
 ### Wrap up
 
-When you've finished the test let me know by email: nick@opensponsorship.com
+When you've finished the test let me know by email: ishveen@opensponsorship.com
 
 We will then schedule a short wrap up call to go over your results and the thinking you applied to this project.
 
 ### Hints
 
-* Be efficient! Please donâ€™t reinvent the wheel, use [generators](https://github.com/angular/angular-seed) and other tools when they speed up your process and get you to your end goal faster.
+* Be efficient! Please don’t reinvent the wheel, use [generators](https://github.com/angular/angular-seed) and other tools when they speed up your process and get you to your end goal faster.
