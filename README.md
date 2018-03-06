@@ -91,7 +91,7 @@ Here is a suggested organization of the form but use your best judgement and cre
 3. **Social Media**: handles
 4. **Summary**: show the athlete a wrap-up screen with the info they added, and give them a way to go back and edit if there are any mistake
 5. **Submit**: On submit, the payload should be sent to a simple end point which persists the profile. This should be saved to a simple free MongoDB instance, such as mLab.
-6. **List**: After submission I should see a list of all profiles I have created in a simple table view **(BONUS FEATURE)**
+6. **List**: After submission I should see a list of all profiles I have created 
 
 Here are the requirements for the API
 
@@ -115,7 +115,7 @@ Please turn in your results within **72-hours** of the prompt being given. If th
 
 ### Evaluation & priorities
 
-Within your brief **4 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process — get it working on sound principles first, then refine and polish as time allows.
+Within your brief **4 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process ï¿½ get it working on sound principles first, then refine and polish as time allows.
 
 1. Make it work!
 2. Clean and clear code (hopefully you didn't sacrifice this to make it work)
@@ -149,4 +149,4 @@ We will then schedule a short wrap up call to go over your results and the think
 
 ### Hints
 
-* Be efficient! Please don’t reinvent the wheel, use [generators](https://github.com/angular/angular-seed) and other tools when they speed up your process and get you to your end goal faster.
+* Be efficient! Please donï¿½t reinvent the wheel, use [generators](https://github.com/angular/angular-seed) and other tools when they speed up your process and get you to your end goal faster.
