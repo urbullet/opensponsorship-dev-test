@@ -5,7 +5,7 @@ Athlete Profile Input Form
 
 ### Overview
 
-In this task you'll be creating and deploying a simple, full-stack, single-page application in Node and Angular 1. 
+In this task you'll be creating and deploying a simple, full-stack, single-page application in Node and Angular 1/ AngularJS (NOT Angular2+). 
 
 > If you have any questions email me at ishveen@opensponsorship.com.
 
