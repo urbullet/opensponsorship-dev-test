@@ -5,7 +5,7 @@ Athlete Profile Input Form
 
 ### Overview
 
-In this task you'll be creating and deploying a simple, full-stack, single-page application in Node and Angular 1/ AngularJS (NOT Angular2+). 
+In this task you'll be creating and deploying a simple, full-stack, responsive, single-page application in Node and Angular 1/ AngularJS (NOT Angular2+) or ReactJS. 
 
 > If you have any questions email me at ishveen@opensponsorship.com.
 
@@ -17,20 +17,13 @@ I would like you to create a **multi-step** or **multi-screen** athlete profile 
 
 * `Name`
 * `Date of Birth`
-* `Nationality`
 * `Location`
-* `Association` (e.g. NBA, NFL)
 * `Team` (e.g. New York Giants)
 * `Gender`
 * `Sports` (Can Multiple)
 * `About`
 * `Interests`
-* `Charities`
-* `Social Media Handles` (Facebook, Twitter, Instagram, Youtube, Twitch, Snapchat)
-* `Pets`
-* `Drinks Alcohol` 
-* `Married`
-* `Profile Image` (If you have time - S3 storage)
+* `Profile Image`
 
 #### Sports
 
@@ -86,11 +79,11 @@ I would like you to create a **multi-step** or **multi-screen** athlete profile 
 
 Here is a suggested organization of the form but use your best judgement and creativity:
 
-1. **Basic Info**: name, sport, nationality, gender, date of birth 
+1. **Basic Info**: name, sport, gender, date of birth 
 2. **About**: description, location, team etc
-3. **Social Media**: handles
-4. **Summary**: show the athlete a wrap-up screen with the info they added, and give them a way to go back and edit if there are any mistake
-5. **Submit**: On submit, the payload should be sent to a simple end point which persists the profile. This should be saved to a simple free MongoDB instance, such as mLab.
+3. **Summary**: show the athlete a wrap-up screen with the info they added, and give them a way to go back and edit if there are any mistake
+4. **Submit**: On submit, the payload should be sent to a simple end point which persists the profile. This should be saved to a simple free MongoDB instance, such as mongoAtlas.
+5. **Profile**: A well styled profile displaying all the information gathered about the user
 6. **List**: After submission I should see a list of all profiles I have created 
 
 Here are the requirements for the API
@@ -103,11 +96,10 @@ Here are the requirements for the API
 Please note:
 
 * This is a **single-page application**. There shouldn't be page reloads between screens.
-* It would be nice to see your stage as your work through the form
 
 ### Time limits
 
-Please spend **no more than 4-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished.
+Please spend **no more than 5-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished.
 
 Please turn in your results within **72-hours** of the prompt being given. If that falls during the weekend, then please turn it in by Monday.
 
@@ -115,7 +107,7 @@ Please turn in your results within **72-hours** of the prompt being given. If th
 
 ### Evaluation & priorities
 
-Within your brief **4 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process � get it working on sound principles first, then refine and polish as time allows.
+Within your brief **5 hour time limit** I hope you'll prioritize the following, in this order. Consider this an iterative process � get it working on sound principles first, then refine and polish as time allows.
 
 1. Make it work!
 2. Clean and clear code (hopefully you didn't sacrifice this to make it work)
@@ -149,4 +141,4 @@ We will then schedule a short wrap up call to go over your results and the think
 
 ### Hints
 
-* Be efficient! Please don�t reinvent the wheel, use [generators](https://github.com/angular/angular-seed) and other tools when they speed up your process and get you to your end goal faster.
+* Be efficient! Please don�t reinvent the wheel, use [generators]and other tools when they speed up your process and get you to your end goal faster.
