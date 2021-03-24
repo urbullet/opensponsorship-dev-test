@@ -99,7 +99,7 @@ Please note:
 
 ### Time limits
 
-Please spend **no more than 5-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished.
+Please spend **no more than 5-hours** on this test. If you can't make it perfect in that time, don't worry, just send me what you've accomplished. This time does not necessarily start when you receive this test, we only ask that you put aside some time to dedicate to completing the challenge.
 
 Please turn in your results within **72-hours** of the prompt being given. If that falls during the weekend, then please turn it in by Monday.
 
