@@ -7,7 +7,7 @@ Athlete Profile Input Form
 
 In this task you'll be creating and deploying a simple, full-stack, responsive, single-page application in Node and Angular 1/ AngularJS (NOT Angular2+) or ReactJS. 
 
-> If you have any questions email me at ishveen@opensponsorship.com.
+> If you have any questions email me at ron@opensponsorship.com.
 
 ### Requirements
 
