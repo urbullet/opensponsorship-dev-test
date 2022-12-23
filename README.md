@@ -135,7 +135,7 @@ Less important details:
 
 ### Wrap up
 
-When you've finished the test let me know by email: ishveen@opensponsorship.com
+When you've finished the test let me know by email: taraneh@opensponsorship.com & ron@opensponsorship.com
 
 We will then schedule a short wrap up call to go over your results and the thinking you applied to this project.
 
