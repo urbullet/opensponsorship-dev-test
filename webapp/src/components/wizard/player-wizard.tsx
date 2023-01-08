@@ -17,7 +17,6 @@ export const PlayerWizard = ({activeStep}: { activeStep: number }) => {
                 return <ProfilePicture/>
             default:
                 return null;
-            // case 4: return <ProfilePicture/>
         }
     }
     return renderCurrentStep()

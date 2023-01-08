@@ -38,7 +38,7 @@ const defaultPlayerWizardContext: PlayerWizardContextInterface = {
         interests: [],
         profilePicture: ""
     },
-    updateInput: (newInput: Player) => {
+    updateInput: () => {
     }
 };
 
@@ -61,7 +61,7 @@ export const PlayerForm = ({handleClose}: { handleClose: Function }) => {
         axios.post("http://localhost:8080/api/player", {
             ...formInput
         })
-            .then(response => {
+            .then(() => {
                 handleClose()
             })
             .catch(error => {
@@ -111,9 +111,6 @@ export const PlayerForm = ({handleClose}: { handleClose: Function }) => {
                         }}
                     >
                         <WizardHeader title="Add new players" steps={steps} activeStep={activeStep}/>
-                        {/*<Avatar sx={{m: 1, bgcolor: 'secondary.main'}}>*/}
-                        {/*    IMAGE HERE*/}
-                        {/*</Avatar>*/}
                         <Box component="form" noValidate onSubmit={handleSubmit} sx={{mt: 3, width: '100%'}}>
                             <Grid container spacing={2}>
                                 <PlayerWizard activeStep={activeStep}/>
