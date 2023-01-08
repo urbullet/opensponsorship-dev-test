@@ -9,7 +9,9 @@ There are two projects in this repo, webapp (React.JS) and api (node)
 ### 1. Get the api up and running
 
 ```
-cd api && npm run start
+cd api 
+npm i
+npm run start
 ```
 
 This should run the backend, leave the terminal running.
@@ -18,7 +20,9 @@ This should run the backend, leave the terminal running.
 Open another terminal from the project root and execute: 
 
 ```
-cd webapp && npm run start
+cd webapp
+npm i
+npm run start
 ```
 
 Voila! your app should be app and running now, open the browser and go to `http://localhost:3000` to view the Single Page App.
