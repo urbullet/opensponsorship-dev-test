@@ -11,11 +11,20 @@ export default function PlayerCard({player}: { player: Player }) {
 
     useEffect(() => {
         getImage(player.profilePicture).then(data => {
-            // @ts-ignore
-            const base64String = btoa(String.fromCharCode(...new Uint8Array(data)));
+            const base64String = _arrayBufferToBase64(data);
             setImageUrl('data:image/jpeg;base64, ' + base64String)
         })
     }, [])
+
+    function _arrayBufferToBase64(buffer: Buffer) {
+        let binary = '';
+        const bytes = new Uint8Array(buffer);
+        for (let i = 0; i < bytes.byteLength; i++) {
+            binary += String.fromCharCode(bytes[i]);
+        }
+        return window.btoa(binary);
+    }
+
     const calculateAge = (date: Date) => {
         const today = new Date();
         const dateOfBirth = new Date(date)
